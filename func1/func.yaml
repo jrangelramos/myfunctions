@@ -1,0 +1,24 @@
+specVersion: 0.34.0
+name: func1
+runtime: node
+registry: ""
+image: ""
+imageDigest: ""
+created: 2022-12-19T10:37:24.66625503-03:00
+invocation:
+  format: http
+build:
+  buildpacks: []
+  builder: ""
+  buildEnvs: []
+run:
+  volumes: []
+  envs: []
+deploy:
+  namespace: ""
+  annotations: {}
+  options: {}
+  labels: []
+  healthEndpoints:
+    liveness: /health/liveness
+    readiness: /health/readiness
